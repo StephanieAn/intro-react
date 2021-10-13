@@ -1,7 +1,9 @@
 export default function Title(){
     return(
         <>
-        <h1>My Todo App</h1>
+            <header className="App-header">
+                <h1>My Todo App</h1>
+            </header>
         </>
     )
 };

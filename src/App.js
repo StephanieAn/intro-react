@@ -2,17 +2,17 @@ import './App.css';
 import Title from './Components/header.js';
 import List from './Components/list.js';
 import Form from './Components/form.js';
+import Foot from './Components/foot'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Title/>
-      </header>
+      <Title/>
       <main>
         <Form/>
         <List/>
       </main>
+      <Foot/>
     </div>
   );
 }
