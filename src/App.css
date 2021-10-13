@@ -1,0 +1,40 @@
+*{
+  box-sizing: 0;
+  padding: 0;
+  margin: 0;
+}
+.App{
+  font-family: 'Times New Roman', Times, serif;
+}
+header{
+  padding: 2rem;
+  background-color: lightblue;
+}
+.App-header{
+  text-align: center;
+  font-size: 2rem;
+}
+.todo__form{
+  margin: 1rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid lightblue;
+}
+.todo__form input{
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+}
+.todo__form button{
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+  font-size: 1rem;
+  background-color: lightblue;
+  border: lightblue 1px solid;
+  border-radius: 5px;
+}
