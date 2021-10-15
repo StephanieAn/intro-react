@@ -2,11 +2,12 @@ import React, { useRef } from "react";
 
 export default function Form(){
     const inputRef = useRef();
+    console.log(inputRef);
     const clickHandler = () => {
         const inputElement = inputRef.current;
-
-        console.log(inputElement.value);
-    }
+        console.log(inputElement )
+    };
+    console.log(clickHandler());
     return(
         <>
             <form className="todo__form">
